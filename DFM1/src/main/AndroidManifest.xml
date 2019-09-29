@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.coderlab.dfm1">
+
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/title_dfm1">
+        <dist:delivery>
+            <dist:on-demand />
+        </dist:delivery>
+        <dist:fusing dist:include="true" />
+    </dist:module>
+    <application tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".DFMActivity" />
+    </application>
+</manifest>
+

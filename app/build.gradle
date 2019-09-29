@@ -25,6 +25,11 @@ android {
     dataBinding {
         enabled = true
     }
+
+
+    dynamicFeatures = [":DFM1"]
+
+
 }
 
 kapt {

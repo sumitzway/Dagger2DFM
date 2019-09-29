@@ -1,2 +1,2 @@
-include ':app', ':coremodule'
+include ':app', ':coremodule', ':DFM1'
 rootProject.name='Dagger2 DFM'
